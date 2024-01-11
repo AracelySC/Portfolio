@@ -1,0 +1,4 @@
+const information ={
+    es:{},
+    en:{}
+}

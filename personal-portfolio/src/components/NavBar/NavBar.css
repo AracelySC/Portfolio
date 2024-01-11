@@ -1,0 +1,11 @@
+
+  .navbar-dark .nav-link {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+  }
+  
+
+  .navbar-dark .nav-link:hover {
+    color: #18e239; 
+  }
+  
