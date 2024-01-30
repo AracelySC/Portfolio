@@ -24,17 +24,17 @@ function App() {
     setLenguaje(lenguage === 'ES' ? 'EN' : 'ES');
   }
   return (
-    <div className="App container">
+    <div className="App">
       <div className='portfolio'>
         <NavBar onLanguagechange={handleLanguageChange} currentLanguage={lenguage} />
-        <Home />
+        <Home  currentLanguage={lenguage}/>
         <About />
         <Resume />
         <Contact />
       </div>
       <div id='portfolio-copy' className='portfolio-copy' aria-hidden="true">
         <NavBar onLanguagechange={handleLanguageChange} currentLanguage={lenguage} />
-        <Home />
+        <Home  currentLanguage={lenguage}/>
         <About />
         <Resume />
         <Contact />
