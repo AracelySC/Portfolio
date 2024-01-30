@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* 001A23
+31493C
+7A9E7E
+B3EFB2
+E8F1F2
+ */
 html{
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
@@ -12,7 +19,7 @@ body{
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
+  background-color: #001a23 !important;
   color: #fff !important;
   font-family: "Gill Sans", sans-serif !important;
 }
@@ -46,7 +53,7 @@ p.danger{
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #001a23;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -68,4 +75,26 @@ p.danger{
   to {
     transform: rotate(360deg);
   }
+}
+
+.portfolio {
+  height: 100%;
+  opacity: 0.6;
+}
+.portfolio-copy {
+  --mask: radial-gradient(
+    circle at var(--x, 15%) var(--y, 50%),
+    black 4%,
+    transparent 25%
+  );
+  background: #7f8189af;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+  opacity: 1;
+  filter: brightness(1.5);
 }

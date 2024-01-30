@@ -2,10 +2,19 @@
   .navbar-dark .nav-link {
     font-size: 1.5rem;
     margin: 0.5rem;
+    color: #E8F1F2;
+  }
+  .navbar-dark{
+    background-color:#001a23 ;
+
   }
   
 
   .navbar-dark .nav-link:hover {
-    color: #18e239; 
+    color: #b3efb2; 
   }
   
+  .lenguageButton{
+    font-size: 1.5rem;
+    margin: 0.5rem;
+  }
