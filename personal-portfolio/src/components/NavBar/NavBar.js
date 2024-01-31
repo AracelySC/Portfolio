@@ -27,7 +27,6 @@ const NavBar = ({ onLanguagechange, currentLanguage }) => {
               <Nav.Link href="#home">{nav.home}</Nav.Link>
               <Nav.Link href="#about">{nav.about}</Nav.Link>
               <Nav.Link href="#resume">{nav.resume}</Nav.Link>
-              <Nav.Link href="#resume">{nav.skills}</Nav.Link>
               <Nav.Link href="#projects">{nav.projects}</Nav.Link>
               <Nav.Link href="#contact">{nav.contact}</Nav.Link>
               <Nav.Link href="https://www.linkedin.com/in/saenz-contreras/" target="_blank" className="social-icon"><AiOutlineLinkedin size={30} /></Nav.Link>
