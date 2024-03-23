@@ -17,22 +17,25 @@ const information = {
             description: 'Bachiller en Informática en la Universidad de Costa Rica con una sólida formación académica en programación, bases de datos y gestión de proyectos. Me considero una persona proactiva, autodidacta y apasionada por lo que hago.',
         },
         resume:{
-            title:'Mi CV',
+            general:'Mi CV',
+            title1:'Educación',
+            title2:'Experiencia',
+            title3:'Habilidades',       
             education:[{
-                university:'Universidad de Costa Rica',
+                institution:'Universidad de Costa Rica',
                 degree:'Bachillerato en Informática Empresarial',
                 date:'2018 - 2023',
             },
-            {   university:'Colegio Técnico Profesional de Oreamuno',
+            {   institution:'Colegio Técnico Profesional de Oreamuno',
                 degree:'Técnico Medio en Informática de Desarrollo de Software',
                 date:'2015 - 2017',
             }],
-            experience:{
+            experience:[{
                 company:'Universidad de Costa Rica - Proyecto de Investigación FUNREAD',
                 position:'Líder de equipo y Desarrollador web',
-                describe:"Como pasante trabajé con tecnologías como Jira, React, Bootstrap, JavaScript, Python y aplicativos inteligentes, utilizando la metodología Scrumban.",
+                description:"Como pasante trabajé con tecnologías como Jira, React, Bootstrap, JavaScript, Python y aplicativos inteligentes, utilizando la metodología Scrumban.",
                 date:'01/2023 - 12/2023',
-            },
+            },],
             skills:{ 
                 languages:['Español (Nativo)', 'Inglés (B1)'],   
                 programmingLanguages:['Java', 'Python', 'JavaScript', 'C#', 'HTML', 'CSS', 'SASS'],
@@ -48,9 +51,9 @@ const information = {
         },{}],
         contact:{
             title:'Contactame',  
-            email:'arasaenz15@gmail.com',
-            phoneNumber:'(+506) 8637 9015',
-            address:'Cartago, Costa Rica',     
+            email:'Correo: arasaenz15@gmail.com',
+            phoneNumber:'Telefono: (+506) 8637 9015',
+            address:'Dirección: Cartago, Costa Rica',     
         },
     },
     EN: {
@@ -71,22 +74,25 @@ const information = {
             description:'Bachelor in Computer Science at the University of Costa Rica with a solid academic background in programming, databases and project management. I consider myself a proactive person, self-taught and passionate about what I do.',
         },
         resume:{
-            title:'My Resume',
+            general:'My Resume', 
+            title1:'Education',
+            title2:'Experience',  
+            title3:'Skills',
             education:[{
-                university:'University of Costa Rica',
+                institution:'University of Costa Rica',
                 degree:'Bachelor in Business Informatics',
                 date:'2018 - 2023',
             },
-            {   university:'Technical Professional College of Oreamuno',
+            {   institution:'Technical Professional College of Oreamuno',
                 degree:'Middle Technician in Software Development Informatics',
                 date:'2015 - 2017',
             }],
-            experience:{
+            experience:[{
                 company:'University of Costa Rica - FUNREAD Research Project',
                 position:'Team Leader and Web Developer',
-                describe:"As an intern, I worked with technologies such as Jira, React, Bootstrap, JavaScript, Python and intelligent applications, using the Scrumban methodology.",
+                description:"As an intern, I worked with technologies such as Jira, React, Bootstrap, JavaScript, Python and intelligent applications, using the Scrumban methodology.",
                 date:'01/2023 - 12/2023',
-            },
+            },],
             skills:{ 
                 languages:['Spanish (Native)', 'English (B1)'],   
                 programmingLanguages:['Java', 'Python', 'JavaScript', 'C#', 'HTML', 'CSS', 'SASS'],
@@ -101,9 +107,9 @@ const information = {
         },{}],
         contact:{
             title:'Contact Me',  
-            email:'aracelysaenzc@gmail.com',
-            phoneNumber:'(+506) 8637 9015',
-            address:'Cartago, Costa Rica',
+            email:'Email: aracelysaenzc@gmail.com',
+            phoneNumber:'Phone: (+506) 8637 9015',
+            address:'Address: Cartago, Costa Rica',
         } 
  
     },

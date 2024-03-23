@@ -1,9 +1,15 @@
 import React from 'react';
+import information from '../../assets/lenguage/information';
 
-const Contact = () => {
+
+const Contact = ({ currentLanguage }) => {
+    const { contact } = information[currentLanguage];
     return (
         <section id='contact'>
-            <h1>Contact</h1>
+            <h2>{contact.title}</h2>
+            <p>{contact.email}</p>
+            <p>{contact.phoneNumber}</p>
+            <p>{contact.address}</p>
             
         </section>
     );

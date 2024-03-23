@@ -1,0 +1,11 @@
+.resume-info {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem 0 2rem;
+}
+.item-info {
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    margin: 2rem 2rem 0 2rem;
+}

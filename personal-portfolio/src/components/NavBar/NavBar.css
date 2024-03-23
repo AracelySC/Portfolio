@@ -1,20 +1,29 @@
+.navbar-dark .nav-link {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  color: #E8F1F2;
+}
 
-  .navbar-dark .nav-link {
-    font-size: 1.5rem;
-    margin: 0.5rem;
+@media screen and (max-width: 990px) {
+  .navbar-dark {
+    background-color: #001a23;
     color: #E8F1F2;
   }
-  .navbar-dark{
-    background-color:#001a23 ;
-    color: #E8F1F2;
-  }
-  
-  .navbar-dark .nav-link:hover {
-    color: #b3efb2; 
-  }
-  .custom-offcanvas-header{
-    background-color:#001a23 ;
-  }
-  .custom-offcanvas-header .btn-close {
-    background-color:#E8F1F2 ;
-  }
+}
+
+.navbar-dark .nav-link:hover {
+  color: #7A9e7E;
+}
+
+.custom-offcanvas-header {
+  background-color: #001a23;
+}
+
+.custom-offcanvas-header .btn-close {
+  background-color: #E8F1F2;
+}
+
+
+.custom-offcanvas-header .btn-close {
+  background-color: #E8F1F2;
+}

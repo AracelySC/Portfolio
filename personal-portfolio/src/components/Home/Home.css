@@ -1,7 +1,7 @@
 .custom-img-size {
-    width: 60%;
-    height: 60%;
-    margin-top: 3rem;
+    width: 45%;
+    height: 75%;
+    margin-top: 2rem;
     object-fit: cover;
     border-radius: 10px;
 }
