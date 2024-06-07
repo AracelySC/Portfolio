@@ -27,12 +27,11 @@ const NavBar = ({ onLanguagechange, currentLanguage }) => {
               <Nav.Link href="#home">{nav.home}</Nav.Link>
               <Nav.Link href="#about">{nav.about}</Nav.Link>
               <Nav.Link href="#resume">{nav.resume}</Nav.Link>
-              <Nav.Link href="#resume">{nav.skills}</Nav.Link>
               <Nav.Link href="#projects">{nav.projects}</Nav.Link>
               <Nav.Link href="#contact">{nav.contact}</Nav.Link>
-              <Nav.Link href="https://www.linkedin.com/in/saenz-contreras/" className="social-icon"><AiOutlineLinkedin size={30} /></Nav.Link>
-              <Nav.Link href="https://github.com/AracelySC" className="social-icon"><IoLogoGithub size={30} /></Nav.Link>
-              <Nav.Link href="https://www.instagram.com/arascontreras/" className="social-icon"><FaInstagram size={30} /></Nav.Link>
+              <Nav.Link href="https://www.linkedin.com/in/saenz-contreras/" target="_blank" className="social-icon"><AiOutlineLinkedin size={30} /></Nav.Link>
+              <Nav.Link href="https://github.com/AracelySC" target="_blank" className="social-icon"><IoLogoGithub size={30} /></Nav.Link>
+              <Nav.Link href="https://www.instagram.com/arascontreras/" target="_blank" className="social-icon"><FaInstagram size={30} /></Nav.Link>
               <Nav.Link href="#"><span onClick={onLanguagechange}>{currentLanguage}</span></Nav.Link>
 
             </Nav>

@@ -28,16 +28,16 @@ function App() {
       <div className='portfolio'>
         <NavBar onLanguagechange={handleLanguageChange} currentLanguage={lenguage} />
         <Home  currentLanguage={lenguage}/>
-        <About />
-        <Resume />
-        <Contact />
+        <About currentLanguage={lenguage}/>
+        <Resume currentLanguage={lenguage}/>
+        <Contact currentLanguage={lenguage}/>
       </div>
       <div id='portfolio-copy' className='portfolio-copy' aria-hidden="true">
         <NavBar onLanguagechange={handleLanguageChange} currentLanguage={lenguage} />
         <Home  currentLanguage={lenguage}/>
-        <About />
-        <Resume />
-        <Contact />
+        <About currentLanguage={lenguage}/>
+        <Resume currentLanguage={lenguage}/>
+        <Contact currentLanguage={lenguage}/>
       </div> 
 
     </div>

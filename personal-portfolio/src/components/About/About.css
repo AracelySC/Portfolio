@@ -1,0 +1,11 @@
+.btn-download{
+    background-color: #B3EFB2;
+    color: #001A23;
+    border-color: #B3EFB2;
+
+}
+.btn-download:hover{
+    background-color: #001A23;
+    color: #B3EFB2;
+    border-color: #001A23;
+}
