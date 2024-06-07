@@ -4,6 +4,10 @@
   color: #E8F1F2;
 }
 
+.navbar-dark {
+  background-color: #001a23;
+ }
+
 @media screen and (max-width: 990px) {
   .navbar-dark {
     background-color: #001a23;

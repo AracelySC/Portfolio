@@ -10,7 +10,7 @@ const Resume = ({ currentLanguage }) => {
 
     return (
 
-        <Row class="resume">
+        <Row class="resume" id='resume'>
             <Row>
                 <Col className="resume-title">
                     <h3>
