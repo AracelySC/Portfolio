@@ -3,18 +3,24 @@ import Button from 'react-bootstrap/Button';
 import { FaDownload } from "react-icons/fa";
 import './About.css';
 import resume from '../../assets/files/cv_Aracely_Saenz.pdf';
+import information from '../../assets/lenguage/information';
+
 
 const About = ({ currentLanguage }) => {
+    const { about } = information[currentLanguage];
     return (
-        <section id='about'>
-            <h3>About me</h3>
+        <section className='about' id='about'>
+            <h3>{about.title}</h3>
+            <p>
+                {about.description}
+            </p>
             <a
                 href={resume}
                 download="cv_Aracely_Saenz.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <Button variant="none" className='btn-download'> <FaDownload />  Download my resume</Button>
+                <button class="btn-download"> <FaDownload />  { about.button}</button>
             </a>
         </section>
     );

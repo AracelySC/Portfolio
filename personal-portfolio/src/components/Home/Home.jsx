@@ -11,7 +11,7 @@ const Home = ({ currentLanguage }) => {
 
     return (
 
-        <Row class="home">
+        <Row class="home" id='home'>
             <Col className="home-info">
                 <h1 className='mt-5'>{home.welcome}</h1>
                 <h3 className='mt-5'>{home.title}</h3>
