@@ -111,7 +111,7 @@ const information = {
         },{}],
         contact:{
             title:'Contact Me',  
-            email:'Email: aracelysaenzc@gmail.com',
+            email:'Email: arasaenz15@gmail.com',
             phoneNumber:'Phone: (+506) 8637 9015',
             address:'Address: Cartago, Costa Rica',
         } 
